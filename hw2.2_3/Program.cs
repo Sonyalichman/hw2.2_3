@@ -34,15 +34,15 @@ namespace hw2
         }
         protected void Call()
         {
-            this.WorkDay = this.WorkDay + "Calling /";
+            this.WorkDay = this.WorkDay + "Calling ";
         }
         protected void WriteCode()
         {
-            this.WorkDay = this.WorkDay + "Writing code /";
+            this.WorkDay = this.WorkDay + "Writing code... ";
         }
         protected void Relax()
         {
-            this.WorkDay = this.WorkDay + "Relaxing /";
+            this.WorkDay = this.WorkDay + "Relaxing ";
         }
         protected abstract void FillWorkDay();
     }
